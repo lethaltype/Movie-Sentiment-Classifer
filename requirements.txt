@@ -1,0 +1,32 @@
+# =============================================================================
+# requirements.txt — Movie Review Sentiment Classifier 2026
+# =============================================================================
+# Install with:  pip install -r requirements.txt
+
+# ── Core Deep Learning ────────────────────────────────────────────────────────
+tensorflow>=2.16.0,<3.0.0          # Keras 3 is bundled here; covers GPU builds too
+# tensorflow-gpu                   # Uncomment if on an NVIDIA GPU with separate CUDA
+
+# ── NLP / Data ────────────────────────────────────────────────────────────────
+numpy>=1.26.0,<2.1.0
+pandas>=2.2.0
+scikit-learn>=1.4.0                # Metrics: classification_report, confusion_matrix, ROC
+nltk>=3.8.0                        # Optional: extend stopwords or use WordNetLemmatizer
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0                    # Optional: prettier statistical plots
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0                       # Progress bars during preprocessing loops
+
+# ── (Optional) Export & Serving ───────────────────────────────────────────────
+# tf2onnx>=1.16.0                  # Export to ONNX for cross-platform deployment
+# onnxruntime>=1.17.0              # Run ONNX models without TensorFlow
+# flask>=3.0.0                     # Serve the model via a REST API
+# fastapi>=0.110.0                 # Alternative API server
+# uvicorn>=0.28.0                  # ASGI server for FastAPI
+
+# ── (Optional) Jupyter ────────────────────────────────────────────────────────
+# notebook>=7.0.0
+# ipykernel>=6.29.0
