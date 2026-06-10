@@ -399,15 +399,3 @@ word-embeddings  sequence-modeling  machine-learning  portfolio
 - [Hochreiter & Schmidhuber (1997). Long Short-Term Memory.](https://www.bioinf.jku.at/publications/older/2604.pdf)
 
 ---
-
-## 📄 License
-
-Distributed under the **MIT License**. See `LICENSE` for details.
-
----
-
-<div align="center">
-Made with ❤️ by <a href="https://github.com/your-username">Your Name</a>
-<br/>
-⭐ Star this repo if you found it helpful!
-</div>
